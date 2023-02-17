@@ -32,7 +32,6 @@ Run the script by typing the following command in your terminal or command promp
 # Copy code
 python ebook_prompt_generator.py
 The script will generate completions for each prompt and save the results in the following file formats:
-
 output.xlsx: an Excel file that contains two columns ("prompt" and "completion") and one row for each prompt-completion pair.
 output.json: a JSON file that contains an array of prompt-completion pairs, with each pair represented as a dictionary.
 output.txt: a text file that contains one prompt-completion pair per line, with each pair represented as a JSON object.
