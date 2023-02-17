@@ -1,24 +1,22 @@
 # ChatGPT-PromptEngineering
 This Python script reads an e-book in PDF format, splits the text into prompts, and uses the OpenAI GPT-3 API to generate completions for each prompt. The completions are then saved in three different file formats (Excel, JSON, and text) that can be used to fine-tune your own GPT-3 model.  
 
-#Requirements
+# Requirements
 Python 3.x
 openai package
 PyPDF2 package
 pandas package
 
-#Setup
+# Setup
 Make sure you have Python 3.x installed on your computer.
 
 Install the openai, PyPDF2, and pandas packages by running the following command in your terminal or command prompt:
-
-#Copy code
 pip install openai PyPDF2 pandas
 Sign up for an OpenAI API key if you don't have one already. You can sign up for a free account at https://beta.openai.com/signup/.
 
 Copy the script ebook_prompt_generator.py to a directory on your computer.
 
-#Usage
+# Usage
 Open the ebook_prompt_generator.py script in your preferred text editor.
 
 Replace <insert API key here> with your OpenAI API key.
@@ -31,7 +29,7 @@ Replace <insert GPT-3 engine here> with the name of the GPT-3 engine that you wa
 
 Run the script by typing the following command in your terminal or command prompt:
 
-#Copy code
+# Copy code
 python ebook_prompt_generator.py
 The script will generate completions for each prompt and save the results in the following file formats:
 
@@ -43,5 +41,5 @@ If you encounter any errors while running the script, make sure that you have in
 If you have any issues with the OpenAI API, check the documentation at https://beta.openai.com/docs/ or contact OpenAI support at https://beta.openai.com/support/.
 If you have any questions or feedback about the script, feel free to reach out to the author.
 
-#Credits
+# Credits
 This script was created by AJ for educational purposes. Feel free to use and modify it as you see fit. If you found this script helpful, consider giving a shoutout to the author or contributing to the project. Thank you for your interest and happy generating!
