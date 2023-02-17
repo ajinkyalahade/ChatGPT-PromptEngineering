@@ -30,7 +30,7 @@ Replace <insert GPT-3 engine here> with the name of the GPT-3 engine that you wa
 Run the script by typing the following command in your terminal or command prompt:
 
 # Copy code
-python ebook_prompt_generator.py
+Prompt Engineering for fine-tuning.ipynb
 The script will generate completions for each prompt and save the results in the following file formats:
 output.xlsx: an Excel file that contains two columns ("prompt" and "completion") and one row for each prompt-completion pair.
 output.json: a JSON file that contains an array of prompt-completion pairs, with each pair represented as a dictionary.
